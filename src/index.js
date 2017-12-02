@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Panel from './Panel';
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -9,8 +9,7 @@ const styles = {
 
 const App = () => (
   <div style={styles}>
-    <Hello name="CodeSandbox" />
-    <h2>Start editing to see some magic happen {'\u2728'}</h2>
+    <Panel/>
   </div>
 );
 
